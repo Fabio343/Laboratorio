@@ -1,0 +1,63 @@
+\documentclass[12pt]{article}
+\usepackage{makeidx}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage[dvipsnames,svgnames,table]{xcolor}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{ulem}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\author{}
+\title{}
+\usepackage[paperwidth=612pt,paperheight=792pt,top=72pt,right=71pt,bottom=17pt,left=71pt]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage{float}
+
+
+\makeatletter
+	\newenvironment{indentation}[3]%
+	{\par\setlength{\parindent}{#3}
+	\setlength{\leftmargin}{#1}       \setlength{\rightmargin}{#2}%
+	\advance\linewidth -\leftmargin       \advance\linewidth -\rightmargin%
+	\advance\@totalleftmargin\leftmargin  \@setpar{{\@@par}}%
+	\parshape 1\@totalleftmargin \linewidth\ignorespaces}{\par}%
+\makeatother 
+  %novos comandos 
+  
+  \begin{document}
+  
+   {\raggedright
+   \begin{indentation}{2pt}{0pt}{0pt}
+   \centering
+   \textsf{POR QUE ESTUDAR  MAP 2212}
+   \begin{figure}
+   \centering
+   \includegraphics[scale=0.5]{patrocinador-imeusp.png}
+   \end{figure}
+   \end{indentation}
+   }
+   
+   {\raggedright
+   \begin{indentation}{300pt}{0pt}{0pt}
+   \textsf{{\normalsize São Paulo, Março de 2018}}
+   \end{indentation}
+   }
+   {\raggedright
+   \begin{indentation}{0pt}{0pt}{0pt}
+   \textsf{{\small Caro Julio Stern}}
+   \end{indentation}
+   }
+   {\raggedright
+   \begin{indentation}{0pt}{0pt}{0pt}
+   \textsf{{ Professor do Departamento de Matemática Aplicada IME-USP}}
+   \end{indentation}
+   }
+   
+   \begin{indentation}{0pt}{0pt}{35pt} 
+   \textsf{ O objetivo de está cursando uma disciplina não é apenas para estar concluindo os requisitos minimos para estar conseguindo uma formação, mas sim para se obter novos metodos para ter um destaque numa determinada atividade profissional no futuro, por isso estudar metodos em laboratório de computação é voltado para obter destaque pois diversas áreas nescessitam de conhecimentos computacionais para realizar modelagem, analise estatistica entre outros, como por exemplo o LNCC que realiza pesquisas em áreas interdisciplinares como bioinformática e biologia computacional. Por isso tenho como objeto ao cursar essa disciplina de adquirir o maximo de habilidades de analises e desenvolvimento de estrategias para estar o mais capacidado possivel para enfrentar qualquer problema real ligado a matemática computacional de forma clara e poder auxiliar na ampliação sobre a área através de pesquisas, ensino etc.}
+   \end{indentation} 
+   
+  \end{document}
